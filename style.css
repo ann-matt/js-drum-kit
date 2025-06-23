@@ -28,8 +28,6 @@ main::before {
 }
 
 .keyboard {
-/*     display: flex;
-    z-index: 100; */
     width: 100vw;
     height: 100vh;
     background-image: url('./assets/free-photo-of-black-and-white-photo-of-people-at-a-concert.jpeg');
@@ -41,6 +39,10 @@ main::before {
     column-gap: 1rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    
+    
+
 }
 .key {
     font-family:'Courier New', Courier, monospace;
